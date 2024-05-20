@@ -1,0 +1,42 @@
+body {
+    display: flex;
+}
+.navbar-vertical {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.product-card h5 {
+    margin-top: 10px;
+}
+
+.product-image {
+    width: 100%; /* Establece el ancho al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 250px; /* Establece un máximo de ancho para la imagen */
+}
+.product-card {
+    height: 100%;
+}
+
+.product-card .card-body {
+    height: 100%;
+}
